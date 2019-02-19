@@ -87,7 +87,7 @@ so provide it through the app's root injector:
 ```
   import 'package:angular/angular.dart';
   import 'package:angular_router/angular_router.dart';
-  import 'package:angular_tour_of_heroes/app_component.template.dart' as ng;
+  import 'package:angular_app/app_component.template.dart' as ng;
   import 'package:http/browser_client.dart';
 
   import 'main.template.dart' as self;
@@ -124,8 +124,8 @@ Update `web/main.dart` with this version, which uses the mock service:
 ```
   import 'package:angular/angular.dart';
   import 'package:angular_router/angular_router.dart';
-  import 'package:angular_tour_of_heroes/app_component.template.dart' as ng;
-  import 'package:angular_tour_of_heroes/in_memory_data_service.dart';
+  import 'package:angular_app/app_component.template.dart' as ng;
+  import 'package:angular_app/in_memory_data_service.dart';
   import 'package:http/http.dart';
 
   import 'main.template.dart' as self;
